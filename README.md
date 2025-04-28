@@ -1,6 +1,6 @@
 # microcontroller-sandbox
 
-This repository contains a sample template codebase for a variety of microcontrollers, along with documentation of the minimal Linux toolchain required to program and interact with the device.
+This repository contains a sample template codebase for a variety of microcontrollers, along with documentation of the minimal Linux toolchain required to program and interact with each device.
 
 ## Microcontrollers
 * [ATTINY85](ATTINY85)
