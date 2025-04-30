@@ -1,8 +1,10 @@
-# microcontroller template
+# ATTINY85
 
 *Matt DiPalma, AMDG - April 29, 2025*
 
 * [Datasheet](https://ww1.microchip.com/downloads/en/devicedoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf)
+
+![attiny85](resources/attiny85.jpg)
 
 ## Summary
 
@@ -32,6 +34,10 @@ For the USBasp programmer, connect the following pins:
 * ATTINY85 PIN6 (MISO) - USBasp MISO
 * ATTINY85 PIN7 (SCK) - USBasp SCK
 * ATTINY85 PIN8 (VCC) - USBasp VCC
+
+Set up a circuit as shown below:
+
+![blink](resources/blink.jpg)
 
 Flash the hex file to the device:
 `sudo avrdude -c usbasp -p t85 -U flash:w:main.hex:i`
