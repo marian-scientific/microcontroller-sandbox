@@ -56,7 +56,12 @@ Avrdude done.  Thank you.
 The code should start running immediately. If not, the RESET pin (PIN1) may need to be pulled HIGH, perhaps through a pull-up resistor.
 
 ### Minimal Examples
-* [ex01_blink_c](ex01_blink_c) - simple LED blink example
+* [ex01_blink_c](ex01_blink_c) - simple LED blink
+* [ex02_blink_asm](ex02_blink_c) - simple LED blink, assembly version
+* [ex03_pwm_c](ex03_pwm_c) - pwm servo control with timer interrupts and pushbutton input
+* [ex04_pwm_asm](ex04_pwm_asm) - pwm servo control with timer interrupts and pushbutton input, assembly version
+
+
 
 ### Observations
 * On my machine the included `avr/io.h` is at `/usr/avr/include/avr/io.h`, which in turn includes `/usr/avr/include/avr/iotn85.h` which pulls in `vim /usr/avr/include/avr/iotnx5.h`. These contain various definitions for the pins and addresses, etc.
