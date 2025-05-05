@@ -60,9 +60,10 @@ The code should start running immediately. If not, the RESET pin (PIN1) may need
 * [ex02_blink_asm](ex02_blink_c) - simple LED blink, assembly version
 * [ex03_pwm_c](ex03_pwm_c) - pwm servo control with timer interrupts and pushbutton input
 * [ex04_pwm_asm](ex04_pwm_asm) - pwm servo control with timer interrupts and pushbutton input, assembly version
-
+* [ex05_serial_c](ex05_serial_c) - serial RX/TX, low baud rate 300
 
 
 ### Observations
 * On my machine the included `avr/io.h` is at `/usr/avr/include/avr/io.h`, which in turn includes `/usr/avr/include/avr/iotn85.h` which pulls in `vim /usr/avr/include/avr/iotnx5.h`. These contain various definitions for the pins and addresses, etc.
 * The RESET pin (PIN1) is active low. That is, if you connect this pin to ground, the chip will reset.
+* For serial communication, data transmit was tested at a common 9600 baud rate, but data reception was not possible, as some bits were miscounted. Data reception was only possible at 300.
