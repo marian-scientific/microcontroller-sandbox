@@ -14,7 +14,7 @@ The CH32V003 is a small 32-bit RISC-V core microcontroller series IC introduced 
 
 The following minimal toolchain was verified on 6.19.9-arch1-1 x86_64 GNU/Linux.
 
-To get the `minichlink` program, either install the full ch32v003fun toolchain or grab it alone:
+To get the `minichlink` program, either build the full `ch32v003fun` toolchain or build it alone:
 ```git clone --depth 1 https://github.com/cnlohr/ch32v003fun.git
 cd ch32v003fun/minichlink
 make
