@@ -22,7 +22,7 @@ sudo cp minichlink /usr/local/bin/
 ```
 
 If you don't want to use the `ch32v003fun` toolchain, you will still need the minichlink executable from above. For direct assembly (or C) programming, install the following packages:
-`sudo pacman -S riscv64-elf-gcc riscv64-elf-binutils`
+```sudo pacman -S riscv64-elf-gcc riscv64-elf-binutils```
 
 # Circuit Setup
 
@@ -44,7 +44,7 @@ No documentation yet.
 Navigate to the [ex02_blink_asm](ex02_blink_asm) directory in the terminal.
 
 Compile and flash the code with:
-`sudo ./go.sh`
+```sudo ./go.sh```
 
 The terminal should print:
 ```
@@ -64,8 +64,12 @@ Image written.
 
 The code should start running immediately.
 
+When attempting to return data over the SWDIO wire, you can use the following to monitor the port:
+```minichlink -T```
+
 ### Minimal Examples
 * [ex01_blink_c](ex01_blink_c) - simple LED blink using ch32v003fun toolchain
 * [ex02_blink_asm](ex02_blink_asm) - simple LED blink, assembly version
+* [ex03_sdi_asm](ex03_sdi_asm) - simple SDI (serial debug interface) returning data, assembly version
 
 ### Observations
