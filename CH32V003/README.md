@@ -70,6 +70,6 @@ When attempting to return data over the SWDIO wire, you can use the following to
 ### Minimal Examples
 * [ex01_blink_c](ex01_blink_c) - simple LED blink using ch32v003fun toolchain
 * [ex02_blink_asm](ex02_blink_asm) - simple LED blink, assembly version
-* [ex03_sdi_asm](ex03_sdi_asm) - simple SDI (serial debug interface) returning data, assembly version
+* [ex03_sdi_asm](ex03_sdi_asm) - simple SDI (serial debug interface) printing data to console, assembly version
 
 ### Observations
