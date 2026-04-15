@@ -2,7 +2,8 @@
 
 *Matt DiPalma, AMDG - April 9, 2026*
 
-* [Datasheet](resources/CH32V003.pdf)
+* [Datasheet (basic info)](resources/CH32V003.pdf)
+* [Reference Manual (detailed processor info)](resources/CH32V003_RM.pdf)
 
 <img src="resources/ch32v003.png" width="400">
 
@@ -71,5 +72,7 @@ When attempting to return data over the SWDIO wire, you can use the following to
 * [ex01_blink_c](ex01_blink_c) - simple LED blink using ch32v003fun toolchain
 * [ex02_blink_asm](ex02_blink_asm) - simple LED blink, assembly version
 * [ex03_sdi_asm](ex03_sdi_asm) - simple SDI (serial debug interface) printing data to console, assembly version
+* [ex04_adc_asm](ex04_adc_asm) - simple ADC, printing potentiometer voltage levels mapped to [0,7] to console, assembly version: [video](https://youtu.be/wmfJw2QJu18)
+* [ex05_pwm_asm](ex05_pwm_asm) - simple PWM, sweeping servo (needs separate 5V supply) and printing state to console, assembly version: [video](https://youtube.com/shorts/45Uofnd5LKg)
 
 ### Observations
