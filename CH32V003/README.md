@@ -1,4 +1,4 @@
-# CH32V003F4P6
+# CH32V003
 
 *Matt DiPalma, AMDG - April 9, 2026*
 
