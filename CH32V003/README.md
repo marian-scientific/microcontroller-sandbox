@@ -1,4 +1,4 @@
-# CH32V003F4P6-R0-1v1 dev board
+# CH32V003F4P6
 
 *Matt DiPalma, AMDG - April 9, 2026*
 
