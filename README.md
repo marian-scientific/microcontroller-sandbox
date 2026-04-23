@@ -9,5 +9,6 @@ This repository contains a sample template codebase for a variety of microcontro
 * [CH32V003](CH32V003)
 * [ESP32](ESP32)
 * [ESP32-CAM](ESP32-CAM)
+* [FD232H](FD232H)
 * [STM32F103C8T6 "Blue Pill"](STM32F103C8T6)
 * [Raspberry Pi Pico](Pico)
